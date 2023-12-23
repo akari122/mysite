@@ -6,7 +6,8 @@
     <title>AKARI</title>
     <meta name="description" content="about-me">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
 </head>
 
 <body>
@@ -14,10 +15,42 @@
         <h1 class="site-title">AKARI</h1>
         <nav>
             <ul>
-                <li><a>HOME</a></li>
-                <li><a>ABOUT</a></li>
-                <li><a>WORKS</a></li>
-                <li><a>CONTACT</a></li>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="page/about.html">ABOUT</a></li>
+                <li><a href="page/works.html">WORKS</a></li>
+                <li><a href="page/contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <div id="about-head">
+            <picture>
+                <!--source モバイル版で表示する画像サイズを設定する-->
+                <source media="(max-width: 1140px)" srcset="C:\Users\81901\Desktop\ポートフォリオ課題\about_head.png">
+                <img src="C:\Users\81901\Desktop\ポートフォリオ課題\about_head.png" alt="about-head画像">
+            </picture>
+        </div>
+    </main>
+
+    <section id="about" class="wrapper">
+        <ul>
+            <div>
+                <h2 class="sec-title">AKARI<br>
+                    です。
+                </h2>
+                <li class="sub-title">introduction</li>
+                <li id="about-text">新卒でSEとなり、IT業界に従事する中でフロントエンドや<br>
+                    webデザインに興味を持ち始めました。<br>
+                    現在は勉強しながら、フリーランスでweb制作をしております。<br>
+                    駆け出しのwebデザイナーです。<br></li>
+            </div>
+            <div id="mypic">
+                <picture>
+                    <!--source モバイル版で表示する画像サイズを設定する-->
+                    <source media="(max-width: 1140px)" srcset="C:\Users\81901\Desktop\ポートフォリオ課題\mypic.png">
+                    <img src="C:\Users\81901\Desktop\ポートフォリオ課題\mypic.png" alt="mypic">
+                </picture>
+            </div>
+        </ul>
+    </section>

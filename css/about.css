@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*-------------------------------------------
+about-head
+-------------------------------------------*/
+#about-head {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#about-head img {
+    width: 100%;
+    max-width: 1400px;
+    height: 250px;
+    object-fit: cover;
+}
