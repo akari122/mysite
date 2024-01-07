@@ -183,14 +183,14 @@ Contact
 
 a.btn-border {
   border-radius: 0;
-  background: #000;
+  background: #232323;
   width: 250px;
   padding: 12px;
 }
 
 a.btn-border:hover {
-  color: #000;
-  background: #fff;
+  color: #232323;
+  background: #f0f0f0;
 }
 
 .btn,
@@ -201,7 +201,7 @@ button.btn {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  color: #fff;
+  color: #f0f0f0;
   margin-top: 24px;
 }
 
@@ -213,11 +213,11 @@ button.btn {
 フッター
 -------------------------------------------*/
 #footer {
-  color: #000;
+  color: #232323;
   font-size: 12px;
   text-align: center;
   padding: 10px;
-  border-top: #000 1px solid;
+  border-top: #232323 1px solid;
 }
 
 #footer p {

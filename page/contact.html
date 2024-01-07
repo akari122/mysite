@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>AKARI</title>
+    <meta name="description" content="about-me">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="site-title">AKARI</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../page/about.html">ABOUT</a></li>
+                <li><a href="../page/works.html">WORKS</a></li>
+                <li><a href="../page/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="about-head">
+            <picture>
+                <!--source モバイル版で表示する画像サイズを設定する-->
+                <source media="(max-width: 1140px)" srcset="C:\Users\81901\Desktop\ポートフォリオ課題\contact_head.png">
+                <img src="C:\Users\81901\Desktop\ポートフォリオ課題\contact_head.png" alt="contact-head画像">
+            </picture>
+            <p>お問い合わせ</p>
+            <li class="sub">contact</li>
+        </div>
+    </main>
+
+    <section id="contact" class="wrapper">
+        <li>お問い合わせありがとうございます。<br>
+            下記フォームを入力のうえ、お問い合わせください。</li>
+        <form action="#" method="post">
+            <p>貴社名<br>
+                <input type="text" name="company_name">
+            </p>
+            <p>お名前（必須）<br>
+                <input type="text" name="name">
+            </p>
+            <p>メールアドレス（必須）<br>
+                <input type="text" name="mail">
+            </p>
+            <p>電話番号<br>
+                <input type="text" name="tel">
+            </p>
+            <p>お問い合わせ内容<br>
+                <textarea name="comment" cols="30" rows="5"></textarea>
+            </p>
+            <p><input type="submit" value="送信する"></p>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>Copyright &copy; AKARI, All rights reserved.</p>
+    </footer>

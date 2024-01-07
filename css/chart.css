@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.BarChartBox {
+    width: 400px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.BarChartBox .bar1 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 75%;
+}
+
+.BarChartBox .bar2 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 75%;
+}
+
+.BarChartBox .bar3 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 75%;
+}
+
+.BarChartBox .bar4 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 76%;
+}
+
+.BarChartBox .bar5 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 56%;
+}
+
+.BarChartBox .bar6 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 56%;
+}
+
+.BarChartBox .bar7 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 46%;
+}
+
+.BarChartBox .bar8 {
+    display: block;
+    background: #232323;
+    height: 100%;
+    width: 80%;
+}

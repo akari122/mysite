@@ -7,6 +7,7 @@
   <meta name="description" content="akari">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/chart.css">
 </head>
 
 <body>
@@ -14,10 +15,10 @@
     <h1 class="site-title">AKARI</h1>
     <nav>
       <ul>
-        <li><a>HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="page/about.html">ABOUT</a></li>
-        <li><a>WORKS</a></li>
-        <li><a>CONTACT</a></li>
+        <li><a href="page/works.html">WORKS</a></li>
+        <li><a href="page/contact.html">CONTACT</a></li>
       </ul>
     </nav>
   </header>
@@ -26,7 +27,8 @@
     <div id="mainvisual">
       <picture>
         <!--source モバイル版で表示する画像サイズを設定する-->
-        <source media="(max-width: 1140px)" srcset="https://github.com/akari122/mysite/blob/main/image/main_top.jpg?raw=true">
+        <source media="(max-width: 1140px)"
+          srcset="https://github.com/akari122/mysite/blob/main/image/main_top.jpg?raw=true">
         <img src="https://github.com/akari122/mysite/blob/main/image/main_top.jpg?raw=true" alt="main画像">
       </picture>
     </div>
@@ -44,7 +46,8 @@
         <div id="pc_pic">
           <picture>
             <!--source モバイル版で表示する画像サイズを設定する-->
-            <source media="(max-width: 1140px)" srcset="https://github.com/akari122/mysite/blob/main/image/pc.jpg?raw=true">
+            <source media="(max-width: 1140px)"
+              srcset="https://github.com/akari122/mysite/blob/main/image/pc.jpg?raw=true">
             <img src="https://github.com/akari122/mysite/blob/main/image/pc.jpg?raw=true" alt="main_pc画像">
           </picture>
         </div>
@@ -52,17 +55,63 @@
       <div class="box">
         <h3>SKILL</h3>
       </div>
-      <li class="sub-title">HTML</li>
-      <li class="sub-title">CSS</li>
-      <li class="sub-title">JavaScript</li>
-      <li class="sub-title">Java</li>
+      <ul>
+        <li class="sub-title">HTML</li>
+        <div class="BarChartBox">
+          <span class="bar1">75%</span>
+        </div>
+      </ul>
+
+      <ul>
+        <li class="sub-title">CSS</li>
+        <div class="BarChartBox">
+          <span class="bar2">75%</span>
+        </div>
+      </ul>
+
+      <ul>
+        <li class="sub-title">JavaScript</li>
+        <div class="BarChartBox">
+          <span class="bar3">75%</span>
+        </div>
+      </ul>
+
+      <ul>
+        <li class="sub-title">Java</li>
+        <div class="BarChartBox">
+          <span class="bar4">76%</span>
+        </div>
+      </ul>
       <div class="box">
         <h3>TOOL</h3>
       </div>
-      <li class="sub-title">Adobe Photoshop</li>
-      <li class="sub-title">Adobe illustrator</li>
-      <li class="sub-title">Figma</li>
-      <li class="sub-title">Wix</li>
+      <ul>
+        <li class="sub-title">Adobe Photoshop</li>
+        <div class="BarChartBox">
+          <span class="bar5">56%</span>
+        </div>
+      </ul>
+
+      <ul>
+        <li class="sub-title">Adobe illustrator</li>
+        <div class="BarChartBox">
+          <span class="bar6">56%</span>
+        </div>
+      </ul>
+
+      <ul>
+        <li class="sub-title">Figma</li>
+        <div class="BarChartBox">
+          <span class="bar7">46%</span>
+        </div>
+      </ul>
+
+      <ul>
+        <li class="sub-title">Wix</li>
+        <div class="BarChartBox">
+          <span class="bar8">80%</span>
+        </div>
+      </ul>
     </section>
 
     <section id="works" class="wrapper">
@@ -71,7 +120,8 @@
       <div id="work-pic">
         <picture>
           <!--source モバイル版で表示する画像サイズを設定する-->
-          <source media="(max-width: 811px)" srcset="https://github.com/akari122/mysite/blob/main/image/wk1.png?raw=true">
+          <source media="(max-width: 811px)"
+            srcset="https://github.com/akari122/mysite/blob/main/image/wk1.png?raw=true">
           <img src="https://github.com/akari122/mysite/blob/main/image/wk1.png?raw=true" alt="wix画像">
         </picture>
         <p>総合経営コンサルティング企業のコーポレートサイト</p>
@@ -84,7 +134,7 @@
       <p>制作のご依頼、ご相談など、お気軽にお問い合わせ下さい。<br>
         お問い合わせお待ちしております。</p>
       <div id="btn">
-        <a href="" class="btn btn-border">お問い合わせはこちら</a>
+        <a href="page/contact.html" class="btn btn-border">お問い合わせはこちら</a>
       </div>
     </section>
 
