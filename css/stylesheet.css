@@ -140,10 +140,11 @@ pc_pic
 About
 -------------------------------------------*/
 
-#about ul {
+#about-main {
   justify-content: space-between;
   display: flex;
   padding-left: 0;
+  margin-bottom: 30px;
 }
 
 #about-text {
@@ -187,6 +188,27 @@ Works
   max-width: 811px;
   height: 463px;
   object-fit: cover;
+}
+
+.btn-work{
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn_work_more {
+  margin-top: 30px;
+}
+
+a.work-btn-border {
+  border-radius: 0;
+  background: #232323;
+  width: 180px;
+  padding: 12px;
+}
+
+a.work-btn-border:hover {
+  color: #232323;
+  background: #f0f0f0;
 }
 
 /*-------------------------------------------
