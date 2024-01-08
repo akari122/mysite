@@ -6,6 +6,7 @@ about-head
 #about-head {
     margin-bottom: 80px;
     text-align: center;
+    letter-spacing: 9px;
 }
 
 #about-head img {
@@ -69,4 +70,251 @@ favorite
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+}
+
+/*-------------------------------------------
+favoriteホバー時
+-------------------------------------------*/
+
+.item1 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item1 .mask1 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item1:hover .mask1 {
+    opacity: 1;
+}
+
+.item2 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item2 .mask2 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item2:hover .mask2 {
+    opacity: 1;
+}
+
+.item3 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item3 .mask3 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item3:hover .mask3 {
+    opacity: 1;
+}
+
+.item4 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item4 .mask4 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item4:hover .mask4 {
+    opacity: 1;
+}
+
+.item5 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item5 .mask5 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item5:hover .mask5 {
+    opacity: 1;
+}
+
+.item6 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item6 .mask6 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item6:hover .mask6 {
+    opacity: 1;
+}
+
+.item7 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item7 .mask7 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item7:hover .mask7 {
+    opacity: 1;
+}
+
+.item8 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item8 .mask8 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item8:hover .mask8 {
+    opacity: 1;
+}
+
+.item9 {
+    position: relative;
+    max-width: 350px;
+    height: 350px;
+}
+
+.item9 .mask9 {
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    left: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.item9:hover .mask9 {
+    opacity: 1;
 }
