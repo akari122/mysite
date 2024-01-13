@@ -313,22 +313,26 @@ SP
     #about-head p {
         position: absolute;
         top: 160px;
-        left: 20px;
+        left: 10px;
     }
 
     .sub {
         position: absolute;
         top: 210px;
-        left: 70px;
+        left: 60px;
     }
 
     #favorite img {
-        max-width: 150px;
-        height: 150px;
+        max-width: 120px;
+        height: 120px;
     }
 
     #favorite-pic {
-        gap: 3px;
+        gap: 1px;
+        position: relative;
+        justify-content: space-between;
+        /* margin-left: 20px; */
+        /* margin-right: 20px; */
     }
 
 }

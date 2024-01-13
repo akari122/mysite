@@ -274,6 +274,7 @@ SP
 @media screen and (max-width: 480px) {
   .wrapper {
     margin-bottom: 50px;
+    max-width: 370px;
   }
 
   .site-title {
