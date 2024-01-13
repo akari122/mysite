@@ -78,8 +78,6 @@ favoriteホバー時
 
 .item1 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item1 .mask1 {
@@ -105,8 +103,6 @@ favoriteホバー時
 
 .item2 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item2 .mask2 {
@@ -132,8 +128,6 @@ favoriteホバー時
 
 .item3 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item3 .mask3 {
@@ -159,8 +153,6 @@ favoriteホバー時
 
 .item4 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item4 .mask4 {
@@ -186,8 +178,6 @@ favoriteホバー時
 
 .item5 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item5 .mask5 {
@@ -213,8 +203,6 @@ favoriteホバー時
 
 .item6 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item6 .mask6 {
@@ -240,8 +228,6 @@ favoriteホバー時
 
 .item7 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item7 .mask7 {
@@ -267,8 +253,6 @@ favoriteホバー時
 
 .item8 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item8 .mask8 {
@@ -294,8 +278,6 @@ favoriteホバー時
 
 .item9 {
     position: relative;
-    max-width: 350px;
-    height: 350px;
 }
 
 .item9 .mask9 {
@@ -317,4 +299,36 @@ favoriteホバー時
 
 .item9:hover .mask9 {
     opacity: 1;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    #about-head img {
+        height: 150px;
+    }
+
+    #about-head p {
+        position: absolute;
+        top: 160px;
+        left: 20px;
+    }
+
+    .sub {
+        position: absolute;
+        top: 210px;
+        left: 70px;
+    }
+
+    #favorite img {
+        max-width: 150px;
+        height: 150px;
+    }
+
+    #favorite-pic {
+        gap: 3px;
+    }
+
 }

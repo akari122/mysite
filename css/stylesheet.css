@@ -8,6 +8,7 @@ html {
 body {
   color: #24292e;
   margin: 0;
+  background-color: #fff;
 }
 
 a {
@@ -87,6 +88,9 @@ li {
   align-items: center;
   height: 100px;
   margin: 0 auto;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
 }
 
 #header ul {
@@ -190,7 +194,7 @@ Works
   object-fit: cover;
 }
 
-.btn-work{
+.btn-work {
   display: flex;
   justify-content: space-between;
 }
@@ -278,7 +282,7 @@ SP
 
   .sec-title {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 40px;
   }
 
 
@@ -313,15 +317,18 @@ SP
   }
 
   a.about-btn-border {
-    border-radius: 0;
-    background: #232323;
     width: 100px;
     padding: 8px;
   }
-  
+
   #pc_pic img {
     margin-top: 40px;
     height: 250px;
+  }
+
+  .box {
+    width: 180px;
+    margin-bottom: 40px;
   }
 
   /*-------------------------------------------
@@ -335,6 +342,18 @@ SP
     width: 100%;
   }
 
+  .btn-work {
+    display: block;
+  }
+
+  #btn_work_more {
+    margin-top: 30px;
+  }
+  
+  a.work-btn-border {
+    width: 100px;
+    padding: 8px;
+  }
   /*-------------------------------------------
   News
   -------------------------------------------*/
