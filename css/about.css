@@ -302,6 +302,44 @@ favoriteホバー時
 }
 
 /*-------------------------------------------
+Tablet
+-------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    #about-head img {
+        height: 130px;
+    }
+
+    #about-head p {
+        position: absolute;
+        top: 130px;
+        left: 50px;
+    }
+
+    .sub {
+        position: absolute;
+        top: 180px;
+        left: 100px;
+    }
+
+    #about-text {
+        margin-top: 90px;
+    }
+
+    #mypic img {
+        margin-top: 260px;
+    }
+
+    #favorite img {
+        max-width: 240px;
+        height: 240px;
+    }
+
+    #favorite-pic {
+        gap: 2px;
+    }
+}
+
+/*-------------------------------------------
 SP
 -------------------------------------------*/
 
@@ -312,14 +350,15 @@ SP
 
     #about-head p {
         position: absolute;
+        font-size: 30px;
         top: 160px;
-        left: 10px;
+        left: 30px;
     }
 
     .sub {
         position: absolute;
         top: 210px;
-        left: 60px;
+        left: 80px;
     }
 
     #favorite img {
@@ -331,12 +370,14 @@ SP
         gap: 1px;
         position: relative;
         justify-content: space-between;
-        /* margin-left: 20px; */
-        /* margin-right: 20px; */
     }
 
-    #mypic{
-        margin-top: 20px;
+    #about-text {
+        margin-top: 10px;
     }
+
+    /* #mypic source{
+        margin-top: 0;
+    } */
 
 }
