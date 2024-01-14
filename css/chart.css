@@ -62,10 +62,19 @@
     width: 80%;
 }
 
+/*-------------------------------------------
+Tablet
+-------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    .BarChartBox {
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .BarChartBox {
         width: 300px;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
         background-color: #f0f0f0;
     }
 }
