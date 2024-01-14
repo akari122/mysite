@@ -31,3 +31,18 @@
     background-color: #f0f0f0;
     color: #232323;
 }
+
+@media screen and (max-width: 480px) {
+    #contact form textarea {
+        width: 350px;
+    }
+
+    .area {
+        width: 350px;
+    }
+
+    .btn {
+        width: 120px;
+        letter-spacing: 2px;
+    }
+}
