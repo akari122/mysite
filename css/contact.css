@@ -34,11 +34,11 @@
 
 @media screen and (max-width: 480px) {
     #contact form textarea {
-        width: 350px;
+        width: 300px;
     }
 
     .area {
-        width: 350px;
+        width: 300px;
     }
 
     .btn {
