@@ -193,4 +193,30 @@ SP
         height: 261px;
         align-items: center;
     }
+
+    #detail_pic img {
+        max-width: 335px;
+        height: 261px;
+    }
+
+    #detail_head {
+        font-size: 22px;
+    }
+
+    .detail_box {
+        width: 163px;
+    }
+
+    .detail_website {
+        display: block;
+    }
+
+    #detail p {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+
+    .url {
+        margin-left: 15px;
+    }
 }
