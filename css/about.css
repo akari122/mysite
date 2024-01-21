@@ -321,12 +321,13 @@ Tablet
         left: 100px;
     }
 
-    #about-text {
-        margin-top: 90px;
+    #mypic img {
+        height: 386px;
+        max-width: 320px;
     }
 
-    #mypic img {
-        margin-top: 260px;
+    #tab{
+        display: none;
     }
 
     #favorite img {
@@ -350,23 +351,15 @@ SP
 
     #about-head p {
         position: absolute;
-        top: 130px;
-        left: 50px;
+        font-size: 30px;
+        top: 160px;
+        left: 30px;
     }
 
     .sub {
         position: absolute;
-        top: 180px;
-        left: 100px;
-    }
-
-    #mypic img {
-        height: 386px;
-        max-width: 320px;
-    }
-
-    #tab{
-        display: none;
+        top: 210px;
+        left: 80px;
     }
 
     #favorite img {
