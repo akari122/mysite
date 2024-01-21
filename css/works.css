@@ -74,7 +74,7 @@ detail
 #detail_pic img {
     width: 100%;
     max-width: 1140px;
-    height: 649px;
+    height: 700px;
     object-fit: cover;
     margin-top: 50px;
 }
