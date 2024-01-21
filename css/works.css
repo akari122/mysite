@@ -144,6 +144,20 @@ Tablet
     #name1 {
         font-size: 22px;
     }
+
+    #detail_pic img {
+        max-width: 648px;
+        height: 461px;
+    }
+
+    .detail_website {
+        display: block;
+    }
+
+    #detail p {
+        letter-spacing: 5px;
+    }
+
 }
 
 /*-------------------------------------------
