@@ -106,39 +106,43 @@ Tablet
 -------------------------------------------*/
 @media screen and (max-width: 1024px) {
     #wk1 {
-        width: 350px;
-        height: 261px;
+        width: 300px;
+        height: 221px;
         align-items: center;
     }
 
     #wk2 {
-        width: 350px;
-        height: 261px;
+        width: 300px;
+        height: 221px;
         align-items: center;
     }
 
     #wk3 {
-        width: 350px;
-        height: 261px;
+        width: 300px;
+        height: 221px;
         align-items: center;
     }
 
     #wk4 {
-        width: 350px;
-        height: 261px;
+        width: 300px;
+        height: 221px;
         align-items: center;
     }
 
     #wk5 {
-        width: 350px;
-        height: 261px;
+        width: 300px;
+        height: 221px;
         align-items: center;
     }
 
     #wk6 {
-        width: 350px;
-        height: 261px;
+        width: 300px;
+        height: 221px;
         align-items: center;
+    }
+
+    #name1 {
+        font-size: 22px;
     }
 }
 
