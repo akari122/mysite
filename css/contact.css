@@ -32,6 +32,10 @@
     color: #232323;
 }
 
+#tabtab {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     #contact form textarea {
         width: 300px;
@@ -44,5 +48,9 @@
     .btn {
         width: 120px;
         letter-spacing: 2px;
+    }
+
+    #tabtab {
+        display: inline;
     }
 }
