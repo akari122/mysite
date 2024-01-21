@@ -272,24 +272,38 @@ button.btn {
 Tablet
 -------------------------------------------*/
 @media screen and (max-width: 1024px) {
-  body {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .wrapper {
-    max-width: 744px;
+    max-width: 648px;
   }
 
   /*-------------------------------------------
   ヘッダー
   -------------------------------------------*/
   #header {
-    width: 728px;
+    max-width: 648px;
   }
 
   #mainvisual img {
-    max-width: 744px;
+    max-width: 648px;
+  }
+
+  /*-------------------------------------------
+  about
+  -------------------------------------------*/
+  .sec-title {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+
+  /*-------------------------------------------
+  work
+  -------------------------------------------*/
+  .sub-title {
+    letter-spacing: 6px;
+  }
+
+  #work-pic p {
+    font-size: 20px;
   }
 }
 
