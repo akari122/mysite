@@ -65,7 +65,7 @@
 /*-------------------------------------------
 Tablet
 -------------------------------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
     .BarChartBox {
         width: 300px;
     }
@@ -73,7 +73,7 @@ Tablet
 
 @media screen and (max-width: 480px) {
     .BarChartBox {
-        width: 300px;
+        width: 250px;
         margin-bottom: 50px;
         background-color: #f0f0f0;
     }
