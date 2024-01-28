@@ -340,7 +340,7 @@ SP
 
   .sec-title {
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 35px;
   }
 
   #mainvisual img {
@@ -392,6 +392,10 @@ SP
     margin-bottom: 50px;
   }
 
+  .box h3{
+    font-size: 18px;
+  }
+
   /*-------------------------------------------
   Works
   -------------------------------------------*/
@@ -415,7 +419,7 @@ SP
   }
 
   /*-------------------------------------------
-  Works
+  contact
   -------------------------------------------*/
   a.btn-border {
     width: 200px;
