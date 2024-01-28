@@ -3,60 +3,104 @@
 .space {
     display: flex;
     justify-content: space-between;
-    padding-left: 0;
     margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.work_content {
+    flex: 0 0 50%;
+    position: relative;
 }
 
 #subtitle {
     margin-top: 20px;
     letter-spacing: 9px;
+    padding-left: 15px;
 }
 
 #name1 {
     margin-top: 25px;
     font-size: 25px;
     letter-spacing: 9px;
+    padding-left: 15px;
 }
 
 #wk1 {
-    width: 520px;
-    height: 361px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #wk1 img {
     width: 100%;
-    height: 100%;
+    max-width: 500px;
+    height: 361px;
     object-fit: cover;
+    aspect-ratio: 500 / 361;
 }
 
 #wk2 {
-    background-color: #809671;
-    width: 520px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#wk2 img {
+    width: 100%;
+    max-width: 500px;
     height: 361px;
+    object-fit: cover;
+    aspect-ratio: 500 / 361;
 }
 
 #wk3 {
-    background-color: #d2ab80;
-    width: 520px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#wk3 img {
+    width: 100%;
+    max-width: 500px;
     height: 361px;
+    object-fit: cover;
+    aspect-ratio: 500 / 361;
 }
 
 #wk4 {
-    background-color: #b3b792;
-    width: 520px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#wk4 img {
+    width: 100%;
+    max-width: 500px;
     height: 361px;
+    object-fit: cover;
+    aspect-ratio: 500 / 361;
 }
 
 #wk5 {
-    background-color: #725c3a;
-    width: 520px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#wk5 img {
+    width: 100%;
+    max-width: 500px;
     height: 361px;
+    object-fit: cover;
+    aspect-ratio: 500 / 361;
 }
 
 #wk6 {
-    background-color: #e5d2b8;
-    width: 520px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#wk6 img {
+    width: 100%;
+    max-width: 500px;
     height: 361px;
+    object-fit: cover;
+    aspect-ratio: 500 / 361;
 }
 
 /*-------------------------------------------
@@ -104,45 +148,75 @@ detail
 /*-------------------------------------------
 Tablet
 -------------------------------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
+
     #wk1 {
-        width: 300px;
-        height: 221px;
-        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #wk2 {
-        width: 300px;
-        height: 221px;
-        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #wk3 {
-        width: 300px;
-        height: 221px;
-        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #wk4 {
-        width: 300px;
-        height: 221px;
-        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #wk5 {
-        width: 300px;
-        height: 221px;
-        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     #wk6 {
-        width: 300px;
-        height: 221px;
-        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #wk1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wk2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wk3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wk4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wk5 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wk6 img {
+        width: 100%;
+        height: 100%;
     }
 
     #name1 {
         font-size: 22px;
+        letter-spacing: 4px;
+    }
+
+    #subtitle {
+        letter-spacing: 4px;
     }
 
     #detail_pic img {
@@ -157,7 +231,6 @@ Tablet
     #detail p {
         letter-spacing: 5px;
     }
-
 }
 
 /*-------------------------------------------
@@ -172,44 +245,38 @@ SP
         margin-top: 20px;
     }
 
-    #wk1 {
-        width: 335px;
-        height: 261px;
-    }
-
     #name1 {
         margin-top: 15px;
-        font-size: 22px;
     }
 
-    #wk2 {
-        width: 335px;
-        height: 261px;
-        align-items: center;
+    #wk1 img {
+        width: 100%;
+        height: 100%;
     }
 
-    #wk3 {
-        width: 335px;
-        height: 261px;
-        align-items: center;
+    #wk2 img {
+        width: 100%;
+        height: 100%;
     }
 
-    #wk4 {
-        width: 335px;
-        height: 261px;
-        align-items: center;
+    #wk3 img {
+        width: 100%;
+        height: 100%;
     }
 
-    #wk5 {
-        width: 335px;
-        height: 261px;
-        align-items: center;
+    #wk4 img {
+        width: 100%;
+        height: 100%;
     }
 
-    #wk6 {
-        width: 335px;
-        height: 261px;
-        align-items: center;
+    #wk5 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #wk6 img {
+        width: 100%;
+        height: 100%;
     }
 
     #detail_pic img {
