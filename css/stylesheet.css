@@ -147,6 +147,7 @@ About
 #about-main {
   justify-content: space-between;
   display: flex;
+  align-items: flex-end;
   padding-left: 0;
   margin-bottom: 30px;
 }
@@ -271,20 +272,25 @@ button.btn {
 /*-------------------------------------------
 Tablet
 -------------------------------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
+  .site-title {
+    padding-left: 30px;
+  }
+
+  #header nav {
+    padding-right: 30px;
+  }
+
   .wrapper {
-    max-width: 648px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   /*-------------------------------------------
   ヘッダー
   -------------------------------------------*/
   #header {
-    max-width: 648px;
-  }
-
-  #mainvisual img {
-    max-width: 648px;
+    width: 100%
   }
 
   /*-------------------------------------------
