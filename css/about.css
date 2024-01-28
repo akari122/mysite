@@ -7,28 +7,29 @@ about-head
     margin-bottom: 80px;
     text-align: center;
     letter-spacing: 9px;
+    position: relative;
 }
 
 #about-head img {
     width: 100%;
-    height: 250px;
+    height: 50%;
     object-fit: cover;
 }
 
 #about-head p {
     position: absolute;
-    top: 200px;
-    left: 180px;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
     font-size: 30px;
     color: white;
-    padding: 0;
-    margin: 0;
 }
 
 .sub {
     position: absolute;
-    top: 260px;
-    left: 220px;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
     font-size: 20px;
     color: white;
     padding: 0;
@@ -305,19 +306,17 @@ Tablet
 -------------------------------------------*/
 @media screen and (max-width: 1024px) {
     #about-head img {
-        height: 150px;
+        height: 50%;
     }
 
     #about-head p {
-        position: absolute;
-        top: 130px;
-        left: 50px;
+        top: 30%;
+        left: 32%;
     }
 
     .sub {
-        position: absolute;
-        top: 180px;
-        left: 100px;
+        top: 68%;
+        left: 32%;
     }
 
     #mypic img {
@@ -325,7 +324,7 @@ Tablet
         max-width: 320px;
     }
 
-    #tab{
+    #tab {
         display: none;
     }
 
